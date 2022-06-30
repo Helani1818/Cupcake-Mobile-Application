@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".BabyShowerActivity"
+    tools:showIn="@layout/activity_baby_shower">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            app:srcCompat="@drawable/babyshower" />
+
+        <ImageButton
+            android:id="@+id/imagebBaby1"
+            android:layout_width="match_parent"
+            android:layout_height="91dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            app:srcCompat="@drawable/baby1" />
+
+        <ImageButton
+            android:id="@+id/imagebBaby2"
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            app:srcCompat="@drawable/baby2" />
+
+        <ImageButton
+            android:id="@+id/imagebBaby3"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            app:srcCompat="@drawable/baby3" />
+
+        <ImageButton
+            android:id="@+id/imagebBaby4"
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            app:srcCompat="@drawable/baby4" />
+
+        <EditText
+            android:id="@+id/txtBabyShower"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@android:color/background_light"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:textColor="@android:color/background_dark"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnBabyShowerGo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="Go to place the Order"
+            android:textColor="@android:color/background_dark"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnBabyShowerBack"
+            android:layout_width="385dp"
+            android:layout_height="37dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Back"
+            android:textColor="@android:color/background_dark"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
